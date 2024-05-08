@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(0, 153, 255);
+    display:flex;
+    justify-content: center;
+}
+.box{
+    width:50vw;
+    
+}
+h1{
+    margin-left:35% ;
+}
+
+.what{
+    display:flex;
+    justify-content: space-around;
+}
+.locationDiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.myWeatherDiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: larger;
+}
+.myImage{
+    display:flex;
+    justify-content: center; 
+    margin-top: 1rem;
+    height:25vh;
+    width:23vw;
+    overflow:hidden;
+
+margin-left: 13vw;
+}
+.myWeatherImage{
+    height: 100%;
+    width:100%;
+}
+.myTemp{
+   
+    display:flex;
+    justify-content: center; 
+}
+.myOtherValues{
+    display:flex;
+    justify-content: space-around;
+}
+.yourWeather{
+    background-color: rgb(132, 173, 209);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.searchWeather{
+    cursor:pointer;
+    transition: 0.5s;
+}
+.logo{
+    overflow:hidden;
+    height:5vh;
+    width:3vw;
+}
+.country{
+    height:100%;
+    width:100%;
+}
+.location{
+    margin:5px;
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 5px;
+}
+.search{
+    cursor: pointer;
+}
+.invisible{
+    /* transform:scale(0); */
+    display:none;
+}
+.yourWeatherCode{
+    transition: 0.5s;
+}
+.inputCity{
+    transition: 0.5s;
+}
